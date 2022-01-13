@@ -43,6 +43,12 @@ body {
   font-weight: 500;
   color: white;
 }
+.media-nav {
+  display: none;
+}
+.nav-profile-icon img:checked .media-nav {
+  display: block;
+}
 /* main section */
 .main-section {
   display: grid;
